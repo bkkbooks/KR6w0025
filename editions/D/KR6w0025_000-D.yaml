@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6w0025/d/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩提心論問題
+  edition:
+    short: d
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D25/D25n8881.xml
+    old_id: D25n8881
+hash: sha256:47399d51edbb77b6e0a5f2f6042934a5fe7e4416c6884af1b722975e8df107b1

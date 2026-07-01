@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6w0025/v1
+canonical_location: https://kanripo.org/bkk/KR6w0025/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 菩提心論問題
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D25/D25n8881.xml
+    old_id: D25n8881
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0025_000.yaml, hash: 'sha256:47399d51edbb77b6e0a5f2f6042934a5fe7e4416c6884af1b722975e8df107b1'}
+  - {seq: 1, filename: KR6w0025_001.yaml, hash: 'sha256:88f9308d2e09d56254e11a476d4142405fb962052f67aed305f7b97ff8d988a4'}
+  - {seq: 2, filename: KR6w0025_002.yaml, hash: 'sha256:80ff96a0222a3acc19e78184ecfabd53eb9a26bf26f6743dc6bfc579404aa022'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0025_001.markers.yaml, hash: 'sha256:38f40b4b99153369a6984ebba579da49b81f4673b34b98aec68e2afd1382a535'}
+  - {seq: 2, role: markers, filename: assets/KR6w0025_002.markers.yaml, hash: 'sha256:66a98aaa260135ea7e2ee7c9f3887c7429f1fddbcfa9c456a8f62782eb703e99'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0025_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 7780
+  label: 菩提心論問題卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6w0025_D_002-juan-start
+    span:
+    - body
+    - 0
+    - 9748
+  label: 菩提心論問題卷下
+  type: juan
+  level: 1
+hash: sha256:ccd7bf123c69a396ccd01ec52a1f22cb727ccf82935263bea032c764ec0a65ef
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
